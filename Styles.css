@@ -1,0 +1,33 @@
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+img {
+  width: 50%;
+  height: 50%;
+}
+.table-user {
+  background-color: cadetblue;
+  /* border: 1px solid blue; มี Attribute ของ .table-user td*/
+  /* border-collapse: collapse; */
+  width: 500px;
+}
+.table-user td , .table-user th{
+  background-color: white;
+  border: 5px solid wheat;
+  padding: 8px;
+  text-align: center;
+}
+
+/* .table-user tr : หมายถึงว่าให้ใช้รูปแบบ CSS table-user กับที่ tag tr ที่อยู่ใกล้กับ Class นี้ */
+/*  .table-user tr ใช้สร้างเส้นตารางไม่ได้ ต้องเป็น td*/
+/* Border : 3 type
+   1. size
+   2. typ border
+   3. color line */
+/* rowspan : กินพ.ท.Row บนลงล่าง
+   colspam : กินพ.ท.Colum ด้านข้าง*/

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact page</title>
+    <link rel="stylesheet" href="./Styles.css" />
+  </head>
+  <body>
+    <ul class="navbar">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./News.html">News</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="./About.html">About</a></li>
+    </ul>
+    <hr />
+    <h1>Contact page</h1>
+    <hr />
+    <h3>Please fill-inform</h3>
+    <form action="./index.html" method="GET">
+      <fieldset>
+        <legend>User Info</legend>
+        <label>
+          First name
+          <input type="text" name="fname" />
+        </label>
+        <br />
+        <br />
+        <br />
+        <label>
+          Last name
+          <input type="text" name="lname" />
+        </label>
+        <br />
+        <br />
+        <br />
+    <fieldset>
+        <legend>Course</legend>
+        <label> <input type="radio" name="coursr" value="css" />CSS </label>
+        <label> <input type="radio" name="coursr" value="html" />HTML </label>
+        <label>
+            <input type="radio" name="coursr" value="Javascript" />Javascript
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Framwork</legend>
+        <label>
+            <input type="radio" name="fremwork" value="react" />React
+        </label>
+        <label>
+            <input type="radio" name="fremwork" value="angular" />Angular
+        </label>
+    </fieldset>
+
+        <br />
+         <button>OK</button>
+         <button type="submit"></button>OK</button>
+        <!--ทำงานเหมือนตัวบน-->
+
+         <button type="button">OK2</button>
+        <!--เป็นรูปธรรมดา กดปุ่มส่งไม่ได้-->
+        <input type="submit" value="submit" />
+        <!-- tag button ใช้แทน tag submit ได้ -->
+      </fieldset>
+    </form>
+
+    <!-- method="GET" ข้อมูลอยู่ใน Header ไม่นิยมใช้ส่งข้อมูลส่วนตัวเพราะต้องผ่าน Router หลายตัว ไม่ปลอดภัย และมีการเปิดเผยข้อมูลบน URL มีการกำจัดจำนวนตัวอักษร ข้อดีคือ Bookmark ได้
+ method="POST"ข้อมูลอยู่ใน Body ข้อมูลไม่โชว์บน URL มีความปลอดภัยมากกว่า-->
+  </body>
+</html> 
